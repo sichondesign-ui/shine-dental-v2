@@ -3,7 +3,8 @@
 Dark, editorial landing page for Shine Dental (Richmond, VA).
 
 ## Files
-- `index.html` — the page
+- `index.html` — the page (editorial split hero by default)
+- `index-full.html` — same page, full-bleed image hero by default
 - `styles-v3.css` — styles
 - `app-v3.js` — interactions (sticky nav, scroll reveals, today's-hours highlight, inline logo) + the Tweaks panel
 - `assoc-logos.js` — inlined association logos (ADA / VDA / SSDS)

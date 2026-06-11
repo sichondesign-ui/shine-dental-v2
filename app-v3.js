@@ -60,6 +60,7 @@
 
   var state = Object.assign({}, TWEAK_DEFAULTS);
   try { state = Object.assign(state, JSON.parse(localStorage.getItem('shine_v3_tweaks') || '{}')); } catch (e) {}
+  if (window.__SHINE_FORCE_HERO) { state.hero = window.__SHINE_FORCE_HERO; }
 
   function apply() {
     document.body.setAttribute('data-hero', state.hero);
